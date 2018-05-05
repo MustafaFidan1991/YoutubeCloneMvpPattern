@@ -5,7 +5,7 @@ Youtube arayüzüne benzer bir clone geliştirilmiştir.
 
 Tasarım deseni olarak MVP Pattern kullanılmıştır.
 
-["Youtube Api"]("https://developers.google.com/youtube/") Restful Api'yle haberleşilmiştir.
+[Youtube Api](https://developers.google.com/youtube/) Restful Api'yle haberleşilmiştir.
 
 Programlama dili olarak ["Kotlin"](https://kotlinlang.org/).
 

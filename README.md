@@ -7,9 +7,9 @@ Tasarım deseni olarak MVP Pattern kullanılmıştır.
 
 ["Youtube Api"]("https://developers.google.com/youtube/") Restful Api'yle haberleşilmiştir.
 
-Programlama dili olarak ["Kotlin"]("https://kotlinlang.org/").
+Programlama dili olarak ["Kotlin"](https://kotlinlang.org/).
 
-Dependency injection için ["Dagger2]("https://github.com/google/dagger").
+Dependency injection için ["Dagger2"](https://github.com/google/dagger).
 
 ImageCaching için ["Glide"](https://github.com/bumptech/glide).
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#eaeaea</color>
+    <color name="colorAccent">#ff0002</color>
+
+    <color name="colorOrange">#ffc107</color>
+    <color name="colorOrangeDark">#ca9906</color>
+
+
+    <color name="colorBlue">#4680e3</color>
+
+    <color name="colorBottomItem">#535353</color>
+    <color name="colorYoutube">#ff0002</color>
+    <color name="colorGrayLight">#b6b6b6</color>
+    <color name="colorGraySuperLight">#eaeaea</color>
+    <color name="colorGrayDark">#212121</color>
+    <color name="colorGrayTransparent">#80919191</color>
+    <color name="colorGray">#727272</color>
+    <color name="colorWhiteAlpha">#80ffffff</color>
+
+    <color name="colorDivider">#EDEDED</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteTransparent">#80FFFFFF</color>
+
+    <color name="colorBlackAlpha">#8e000000</color>
+    <color name="colorShadowBlack">#9c000000</color>
+    <color name="colorAlpha">#00000000</color>
+    <color name="colorDarkBlue">#0e3270</color>
+
+</resources>

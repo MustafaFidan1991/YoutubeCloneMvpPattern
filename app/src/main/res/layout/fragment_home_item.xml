@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <data>
+        <variable
+            name="video"
+            type="com.mustafafidan.youtubeclonemvppattern.model.Video" />
+        <variable
+            name="presenter"
+            type="com.mustafafidan.youtubeclonemvppattern.ui.home.HomePresenter" />
+    </data>
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/imageRelLay"
+            android:layout_width="180dp"
+            android:layout_height="100dp">
+            <ImageView
+                app:image_url='@{video.snippet.thumbnails.medium.url ?? ""}'
+                android:id="@+id/iv"
+                android:background="@color/colorGrayDark"
+                android:layout_width="180dp"
+                android:layout_height="100dp" />
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:padding="3dp"
+                android:text="3:00"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorGrayDark"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imageRelLay"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/colorGrayDark"
+                android:id="@+id/titleTv"
+                android:text="@{video.snippet.title}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/colorGrayLight"
+                android:text="@{video.snippet.channelTitle}"
+                android:id="@+id/publisherTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/colorGrayLight"
+                android:text="@{video.snippet.publishedAt}"
+                android:id="@+id/dateTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

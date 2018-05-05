@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:enabled="true"
+        android:icon="@drawable/ic_trends"
+        android:title="@string/trends"
+        app:showAsAction="ifRoom" />
+    <item
+        android:enabled="true"
+        android:icon="@drawable/ic_subscriptions"
+        android:title="@string/subscriptions"
+        app:showAsAction="ifRoom" />
+    <item
+        android:enabled="true"
+        android:icon="@drawable/ic_activity"
+        android:title="@string/activity"
+        app:showAsAction="ifRoom" />
+    <item
+        android:enabled="true"
+        android:icon="@drawable/ic_bookshelf"
+        android:title="@string/bookshelf"
+        app:showAsAction="ifRoom" />
+</menu>

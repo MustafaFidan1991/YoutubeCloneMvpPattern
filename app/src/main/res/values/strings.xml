@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidMvpPatterExample</string>
+    <string name="bookshelf">Kitaplık</string>
+    <string name="activity">Etkinlik</string>
+    <string name="subscriptions">Abonelikler</string>
+    <string name="trends">Trendler</string>
+    <string name="home">Ana Sayfa</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -5,19 +5,21 @@ Youtube arayüzüne benzer bir clone geliştirilmiştir.
 
 Tasarım deseni olarak MVP Pattern kullanılmıştır.
 
-Programlama dili olarak Kotlin.
+["Youtube Api"]("https://developers.google.com/youtube/") Restful Api'yle haberleşilmiştir.
 
-Dependency injection için Dagger2.
+Programlama dili olarak ["Kotlin"]("https://kotlinlang.org/").
 
-ImageCaching için Glide.
+Dependency injection için ["Dagger2]("https://github.com/google/dagger").
 
-Data bind etmek için Android DataBinding.
+ImageCaching için ["Glide"](https://github.com/bumptech/glide).
 
-Http client tarafında Retrofit2.
+Data bind etmek için ["Data Binding Library"](https://developer.android.com/topic/libraries/data-binding/index.html).
 
-Asenkron işlemleri desteklemesi için RxJava.
+Http client tarafında ["Retrofit"](https://github.com/square/retrofit).
 
-Json serialize, deserialize işlemleri için Moshi.
+Asenkron işlemleri desteklemesi için ["RxJava"](https://github.com/ReactiveX/RxJava).
+
+Json serialize, deserialize işlemleri için ["Moshi"](https://github.com/square/moshi).
 
 Kütüphaneleri kullanılmıştır.
 

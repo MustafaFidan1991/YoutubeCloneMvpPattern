@@ -23,8 +23,6 @@ Json serialize, deserialize işlemleri için ["Moshi"](https://github.com/square
 
 Kütüphaneleri kullanılmıştır.
 
-Uygulama tamamen object oriented ve Mvp pattern'ine göre geliştirilmiştir.
-
 <img src="https://github.com/MustafaFidan1991/YoutubeCloneMvpPattern/blob/master/Screenshot_20180506-230353.png" width="350"/>
 
 
